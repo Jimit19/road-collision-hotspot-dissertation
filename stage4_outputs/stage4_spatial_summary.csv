@@ -1,0 +1,15 @@
+measure,value
+Number of collision records,503410
+Missing longitude values,0
+Missing latitude values,0
+Original CRS,EPSG:4326
+Projected CRS,EPSG:27700
+Geometry type,Point
+Empty geometries,0
+Invalid geometries,0
+Minimum easting,65948.86
+Minimum northing,10210.47
+Maximum easting,655345.0
+Maximum northing,1184352.53
+Approximate width in kilometres,589.4
+Approximate height in kilometres,1174.14

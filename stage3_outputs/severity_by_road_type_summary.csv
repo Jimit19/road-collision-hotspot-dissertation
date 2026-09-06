@@ -1,0 +1,7 @@
+road_type_for_analysis,Fatal,Serious,Slight,total_collisions
+Single carriageway,5660,85817,274367,365844
+Dual carriageway,1530,15038,58147,74715
+Roundabout,145,4790,25028,29963
+Unknown,21,1111,11981,13113
+One way street,41,1811,9266,11118
+Slip road,94,1410,7218,8722

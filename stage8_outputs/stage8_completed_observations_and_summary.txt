@@ -1,0 +1,50 @@
+
+STAGE 8 NOTEBOOK SUMMARY
+
+In this stage, I predicted whether a 5 km by 5 km British National Grid cell
+would be classified as a collision hotspot in the following year. The target
+was target_is_hotspot. I used log_previous_count and previous_hotspot as the
+predictors because both were known before the target year.
+
+I first used 2021 and 2022 as development training data and 2023 as a temporal
+validation year. This allowed me to compare the models without repeatedly using
+the final test year. After model selection, I refitted the selected model using
+2021 to 2023 and evaluated it on the held-out 2024 observations.
+
+The models compared were a majority-class Dummy classifier, a simple
+previous-hotspot rule, Logistic Regression, a Decision Tree, Random Forest and
+XGBoost. I first tested an unweighted Logistic Regression and then tried a
+balanced version after reviewing the class distribution. I also fitted an
+unrestricted Decision Tree before reducing its depth to check whether the
+original tree was overfitting.
+
+The selected model was Logistic Regression balanced. It was selected using the 2023
+validation results rather than the 2024 test results. On the held-out 2024 test
+set, it achieved accuracy of 0.964, hotspot
+precision of 0.702, hotspot recall of
+0.989, hotspot F1 of
+0.821, macro F1 of
+0.901, and ROC-AUC of
+0.997.
+
+The dataset was imbalanced, with approximately 11.27
+non-hotspot observations for every hotspot observation. Because of this,
+accuracy was not used by itself. Hotspot recall, hotspot F1, macro F1, ROC-AUC
+and the confusion matrix were also considered.
+
+The model detected a relatively high proportion of the 2024 hotspots. The 2024 confusion matrix contained 264 false positives and
+7 false negatives. In a road-safety context, false negatives are particularly
+important because they represent grid cells that became hotspots but were not
+identified in advance.
+
+The training-to-test differences did not show strong evidence of severe overfitting.
+
+The main limitations are the small number of target years, the use of only two
+previous-year predictors, the relative percentile-based definition of a hotspot,
+and the use of one final test year. The model predicts association rather than
+causation, and it should not be treated as a replacement for local road-safety
+assessment.
+
+The selected trained model and the 2024 prediction probabilities have been
+saved for Stage 9. Stage 9 will explain the selected model in more detail, but
+no SHAP analysis has been carried out in this notebook.

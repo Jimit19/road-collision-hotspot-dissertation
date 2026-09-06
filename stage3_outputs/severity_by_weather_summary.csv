@@ -1,0 +1,11 @@
+weather_for_analysis,Fatal,Serious,Slight,total_collisions
+Fine no high winds,6169,89539,305248,400956
+Raining no high winds,775,12269,44143,57187
+Other,119,2787,12364,15270
+Unknown,56,1672,12876,14604
+Raining and high winds,149,1384,4425,5958
+Fine and high winds,133,1343,3682,5158
+Fog or mist,67,559,1670,2296
+Snowing no high winds,19,365,1357,1741
+Snowing and high winds,1,59,232,292
+Data missing or out of range,3,0,10,13

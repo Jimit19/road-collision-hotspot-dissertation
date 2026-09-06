@@ -1,0 +1,5 @@
+urban_rural_for_analysis,Fatal,Serious,Slight,total_collisions
+Urban,2792,67620,269491,339903
+Rural,4698,42340,116466,163504
+Unallocated,1,15,44,60
+Unknown,0,2,6,8

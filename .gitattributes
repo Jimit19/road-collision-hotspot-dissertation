@@ -1,0 +1,9 @@
+# Large geospatial/binary artefacts
+*.gpkg filter=lfs diff=lfs merge=lfs -text
+*.joblib filter=lfs diff=lfs merge=lfs -text
+
+# Large CSV files that exceed or approach normal GitHub limits
+stage2_outputs/collision_cleaned_full.csv filter=lfs diff=lfs merge=lfs -text
+stage2_outputs/collision_cleaned_spatial.csv filter=lfs diff=lfs merge=lfs -text
+stage4_outputs/collision_spatial_prepared.csv filter=lfs diff=lfs merge=lfs -text
+dft-road-casualty-statistics-collision-last-5-years.csv filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,4 @@
+test,statistic,p_value,effect_size,effect_size_name
+Chi-square,23856.00198059604,0.0,0.8855043008564458,Cramer's V
+Mann-Whitney U,69085376.0,0.0,0.993773722560328,Rank-biserial correlation
+Kruskal-Wallis,5.517467648646172,0.13759758343865422,8.275699042229364e-05,Epsilon-squared

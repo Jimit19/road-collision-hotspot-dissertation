@@ -1,0 +1,20 @@
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:             is_hotspot   No. Observations:                30424
+Model:                            GLM   Df Residuals:                    30419
+Model Family:                Binomial   Df Model:                            4
+Link Function:                  Logit   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -1155.1
+Date:                Thu, 06 Aug 2026   Deviance:                       2310.2
+Time:                        11:03:10   Pearson chi2:                 5.10e+03
+No. Iterations:                    11   Pseudo R-squ. (CS):             0.3867
+Covariance Type:              cluster                                         
+======================================================================================
+                         coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept            -24.7252      0.740    -33.394      0.000     -26.176     -23.274
+C(year)[T.2022]       -0.6441      0.169     -3.805      0.000      -0.976      -0.312
+C(year)[T.2023]       -0.7122      0.151     -4.720      0.000      -1.008      -0.416
+C(year)[T.2024]       -0.6624      0.141     -4.708      0.000      -0.938      -0.387
+log_previous_count     7.1011      0.215     32.983      0.000       6.679       7.523
+======================================================================================

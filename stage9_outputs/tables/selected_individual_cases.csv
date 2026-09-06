@@ -1,0 +1,5 @@
+grid_id,target_year,target_is_hotspot,predicted_hotspot,predicted_probability_stage9,confusion_type,log_previous_count,previous_hotspot
+R034_C093,2024,1,1,0.9999999999983977,True positive,7.251344983372214,1
+R001_C022,2024,0,0,5.64791947838045e-10,True negative,0.0,0
+R036_C103,2024,0,1,0.9948005288631603,False positive,3.970291913552122,1
+R067_C065,2024,1,0,0.08479219087228605,False negative,2.833213344056216,0

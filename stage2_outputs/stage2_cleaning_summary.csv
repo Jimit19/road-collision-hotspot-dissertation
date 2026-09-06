@@ -1,0 +1,14 @@
+item,value
+Raw records,503475
+Raw columns,44
+Full cleaned records,503475
+Spatial cleaned records,503410
+Records removed only from spatial dataset,65
+Duplicate collision IDs,0
+Missing longitude,65
+Missing latitude,65
+Missing easting,65
+Missing northing,65
+Valid coordinate records,503410
+Invalid coordinate records,65
+Missing local_authority_highway_current after cleaning,0

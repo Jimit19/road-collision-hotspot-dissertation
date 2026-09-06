@@ -1,0 +1,8 @@
+surface_for_analysis,Fatal,Serious,Slight,total_collisions
+Dry,5166,79408,276713,361287
+Wet or damp,2203,28027,94270,124500
+9,3,422,5801,6226
+Frost or ice,73,1302,4796,6171
+Data missing or out of range,12,370,2827,3209
+Snow,12,261,988,1261
+Flood over 3cm deep,22,187,612,821

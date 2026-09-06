@@ -1,0 +1,55 @@
+STAGE 9: EXPLAINABLE AI AND INTERPRETATION
+==================================================
+
+Selected model interpreted: Logistic Regression balanced train
+Loaded estimator class: LogisticRegression
+SHAP method used: LinearExplainer
+
+2024 performance check:
+- accuracy: 0.9644
+- precision_hotspot: 0.7020
+- recall_hotspot: 0.9889
+- hotspot_f1: 0.8211
+- macro_f1: 0.9007
+- roc_auc: 0.9971
+
+Most influential predictors by mean absolute SHAP:
+- log_previous_count: 6.6556
+- previous_hotspot: 0.0053
+
+Local prediction observations:
+- The selected true positive had a probability of 1.000. The strongest contribution towards hotspot status came from log_previous_count.
+- The selected true negative had a probability of 0.000. The strongest contribution away from hotspot status came from log_previous_count.
+- The selected false positive had a probability of 0.995. The model was mainly pushed towards hotspot status by log_previous_count, but the grid cell did not become a 2024 hotspot.
+- The selected false negative had a probability of 0.085. The strongest contribution away from hotspot status came from previous_hotspot. The previous-year information was not enough for the model to identify this actual 2024 hotspot.
+
+Error findings:
+- False positives: 264
+- False negatives: 7
+- Correct prediction median distance from 0.5: 0.500
+- Incorrect prediction median distance from 0.5: 0.304
+
+Stage 7 comparison:
+- A Stage 7 coefficient table was found. The predictor directions can now be compared with the Stage 9 model and SHAP directions shown above.
+
+Main interpretation:
+- The selected model used previous-year collision information to estimate future hotspot probability.
+- Positive coefficients or SHAP values pushed predictions towards hotspot status.
+- Negative contributions pushed predictions away from hotspot status.
+- False positives may reflect strong previous risk signals that did not continue into the target year.
+- False negatives may reflect emerging or changing hotspot patterns not captured by the two predictors.
+
+Important limitations:
+- SHAP explains model behaviour, not real-world causation.
+- Feature importance does not prove that a predictor causes future collisions.
+- Only two previous-year predictors were used.
+- Other road, weather, traffic and local variables were not included.
+- The hotspot target is based on a yearly 90th percentile threshold.
+
+Files to carry forward to Stage 10:
+- Selected model: /content/drive/MyDrive/disseration/stage8_outputs/models/stage8_selected_model.joblib
+- Stage 8 prediction file: /content/drive/MyDrive/disseration/stage8_outputs/predictions/stage8_selected_model_predictions_2024.csv
+- Dashboard-ready Stage 9 table: /content/drive/MyDrive/disseration/stage9_outputs/tables/stage9_dashboard_explainability_2024.csv
+- Highest predicted probabilities: /content/drive/MyDrive/disseration/stage9_outputs/tables/highest_predicted_probabilities_2024.csv
+- Incorrect predictions: /content/drive/MyDrive/disseration/stage9_outputs/tables/incorrect_predictions_2024.csv
+- Figures folder: /content/drive/MyDrive/disseration/stage9_outputs/figures

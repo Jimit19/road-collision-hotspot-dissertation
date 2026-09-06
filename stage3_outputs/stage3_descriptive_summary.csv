@@ -1,0 +1,16 @@
+analysis_area,finding
+Dataset used,collision_cleaned_full.csv
+Rows analysed,503475
+Columns in dataset,70
+Year range,2020 to 2024
+Highest collision year,2022 with 106004 collisions
+Lowest collision year,2020 with 91199 collisions
+Highest collision month,October with 46122 collisions
+Highest collision day,Friday with 83389 collisions
+Highest collision hour,17:00 with 43728 collisions
+Most common severity,Slight with 386007 collisions
+Most common road type,Single carriageway with 365844 collisions
+Most common weather condition,Fine no high winds with 400956 collisions
+Most common light condition,Daylight with 359837 collisions
+Most common road surface condition,Dry with 361287 collisions
+Most common urban/rural area,Urban with 339903 collisions

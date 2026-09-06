@@ -1,0 +1,22 @@
+                               GEE Regression Results                              
+===================================================================================
+Dep. Variable:                  is_hotspot   No. Observations:                30424
+Model:                                 GEE   No. clusters:                     7606
+Method:                        Generalized   Min. cluster size:                   4
+                      Estimating Equations   Max. cluster size:                   4
+Family:                           Binomial   Mean cluster size:                 4.0
+Dependence structure:         Exchangeable   Num. iterations:                    10
+Date:                     Thu, 06 Aug 2026   Scale:                           1.000
+Covariance type:                    robust   Time:                         11:03:10
+======================================================================================
+                         coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept            -26.4826      0.823    -32.159      0.000     -28.097     -24.869
+C(year)[T.2022]       -0.6795      0.179     -3.794      0.000      -1.031      -0.328
+C(year)[T.2023]       -0.7714      0.159     -4.842      0.000      -1.084      -0.459
+C(year)[T.2024]       -0.7051      0.149     -4.746      0.000      -0.996      -0.414
+log_previous_count     7.6251      0.238     31.977      0.000       7.158       8.092
+==============================================================================
+Skew:                          0.7983   Kurtosis:                      40.7637
+Centered skew:                 0.5276   Centered kurtosis:             52.0664
+==============================================================================

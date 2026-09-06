@@ -1,0 +1,7 @@
+light_for_analysis,Fatal,Serious,Slight,total_collisions
+Daylight,4361,76044,279432,359837
+Darkness: lights lit,1581,23688,78886,104155
+Darkness: no lighting,1306,7798,17487,26591
+Darkness: lighting unknown,143,1498,7561,9202
+Darkness: lights unlit,97,945,2629,3671
+Data missing or out of range,3,4,12,19

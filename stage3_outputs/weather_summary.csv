@@ -1,0 +1,11 @@
+weather_condition,collision_count,percentage
+Fine no high winds,400956,79.64
+Raining no high winds,57187,11.36
+Other,15270,3.03
+Unknown,14604,2.9
+Raining and high winds,5958,1.18
+Fine and high winds,5158,1.02
+Fog or mist,2296,0.46
+Snowing no high winds,1741,0.35
+Snowing and high winds,292,0.06
+Data missing or out of range,13,0.0

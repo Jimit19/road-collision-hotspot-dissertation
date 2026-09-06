@@ -1,0 +1,6 @@
+year,total_collisions,occupied_grid_cells,zero_collision_grid_cells,mean_collisions_per_occupied_cell,maximum_collisions_in_one_grid_cell,fatal_collisions,serious_collisions,slight_collisions
+2020,91185,5947,1659,15.33,1182,1391,18353,71441
+2021,101070,6068,1538,16.66,1495,1473,21279,78318
+2022,105982,6093,1513,17.39,1497,1602,23327,81053
+2023,104246,6135,1471,16.99,1409,1522,23434,79290
+2024,100927,6137,1469,16.45,1344,1502,23567,75858

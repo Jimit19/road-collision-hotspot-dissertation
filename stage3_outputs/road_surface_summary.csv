@@ -1,0 +1,8 @@
+road_surface_condition,collision_count,percentage
+Dry,361287,71.76
+Wet or damp,124500,24.73
+9,6226,1.24
+Frost or ice,6171,1.23
+Data missing or out of range,3209,0.64
+Snow,1261,0.25
+Flood over 3cm deep,821,0.16

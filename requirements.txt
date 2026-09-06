@@ -1,0 +1,16 @@
+pandas
+numpy
+geopandas
+shapely
+pyproj
+matplotlib
+scipy
+scikit-learn
+xgboost
+shap
+statsmodels
+libpysal
+esda
+openpyxl
+pyogrio
+joblib

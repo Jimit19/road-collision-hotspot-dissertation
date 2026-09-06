@@ -1,0 +1,2 @@
+selected_model,true_negatives,false_positives,false_negatives,true_positives
+Logistic Regression balanced,6713,264,7,622

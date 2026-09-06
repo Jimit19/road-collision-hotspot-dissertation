@@ -1,0 +1,29 @@
+# Python / notebook temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.env
+*.key
+*.pem
+credentials.json
+service_account.json
+
+# Temporary files
+*.tmp
+*.log
+~$*.pbix
